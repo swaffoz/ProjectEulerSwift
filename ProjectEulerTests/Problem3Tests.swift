@@ -12,7 +12,7 @@ import XCTest
 class Problem3Tests: XCTestCase {
     
     func testProblem3Correct() {
-        XCTAssert(problem3() == 6857, "Pass")
+        XCTAssert(problem3() == 6857, "Problem 3 should equal 6857")
     }
     
     func testProblem3Performance() {

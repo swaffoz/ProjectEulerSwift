@@ -83,4 +83,30 @@ class ZSMath {
         
         return primes
     }
+    
+    class func generateNPrimes(n:Int) -> [Int] {
+        var primes:[Int] = []
+        var isPrime:Bool
+        var j:Int
+        
+        primes.append(2)
+        
+        for (var i = 3; primes.count < n; i+=2) {
+            j = 0
+            isPrime = true
+            while(primes[j] * primes[j] <= i) {
+                if (i % primes[j] == 0) {
+                    isPrime = false
+                    break
+                }
+                j++
+            }
+            
+            if (isPrime) {
+                primes.append(i)
+            }
+        }
+        
+        return primes
+    }
 }

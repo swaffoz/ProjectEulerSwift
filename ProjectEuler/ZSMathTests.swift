@@ -50,9 +50,16 @@ class ZSMathTests: XCTestCase {
         XCTAssert(testDidPass, "Pass")
     }
     
-    func testGeneratePrimeNumbers() {
+    func testGeneratePrimes() {
         let actualPrimes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
         let testPrimes = ZSMath.generatePrimes(upToNumber: 30)
+        
+        XCTAssert(actualPrimes == testPrimes, "Pass")
+    }
+    
+    func testGenerateNPrimes() {
+        let actualPrimes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+        let testPrimes = ZSMath.generateNPrimes(10)
         
         XCTAssert(actualPrimes == testPrimes, "Pass")
     }

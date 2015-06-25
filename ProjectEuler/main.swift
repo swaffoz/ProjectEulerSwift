@@ -9,7 +9,8 @@
 import Foundation
 
 let problems: [()->Int] = [problem1, problem2, problem3, problem4,
-                           problem5, problem6, problem7, problem8]
+                           problem5, problem6, problem7, problem8,
+                           problem9]
 
 for var i = 0; i < problems.count; i++ {
     let start = NSDate()

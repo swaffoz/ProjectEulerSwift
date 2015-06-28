@@ -9,11 +9,24 @@
 import Foundation
 
 func problem10() -> Int {
-    // This method takes around 18 seconds on my Mac Mini :(
-    // The prime number generation takes < 1.00s but the combine takes the 
-    //      longest amount of time.
-    // I could not find a method of solving this problem that I found suitable
-    // to both speed and readability so I settled with this.
     
-    return ZSMath.generatePrimes(upToNumber: 2_000_000).reduce(0, combine: +)
+    //return ZSMath.generatePrimes(upToNumber: 2_000_000).reduce(0, combine: +)
+    
+    // This method using the Sieve of Eratosthenes is nearly 10x faster than
+    // using the built-in reduce.
+    
+    var sieve = [Bool](count: 2_000_000, repeatedValue: true)
+    
+    var sum = 0
+    for i in 2..<2_000_000 {
+        if sieve[i] {
+            sum += i
+            
+            for var multiple = i + i; multiple < 2_000_000; multiple += i {
+                sieve[multiple] = false
+            }
+        }
+    }
+    
+    return sum
 }

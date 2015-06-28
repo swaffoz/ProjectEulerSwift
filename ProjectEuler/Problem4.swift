@@ -9,6 +9,7 @@
 import Foundation
 
 func problem4() -> Int {
+    
     var maxProduct = 0
     for var x = 999; x > 99; x-- {
         for var y = 999; y > 99; y--  {

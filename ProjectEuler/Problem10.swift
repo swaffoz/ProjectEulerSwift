@@ -15,5 +15,5 @@ func problem10() -> Int {
     // I could not find a method of solving this problem that I found suitable
     // to both speed and readability so I settled with this.
     
-    return ZSMath.generatePrimes(upToNumber: 2000000).reduce(0, combine: +)
+    return ZSMath.generatePrimes(upToNumber: 2_000_000).reduce(0, combine: +)
 }

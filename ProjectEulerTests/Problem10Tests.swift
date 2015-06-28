@@ -20,4 +20,5 @@ class Problem10Tests: XCTestCase {
             problem10()
         }
     }
+    
 }

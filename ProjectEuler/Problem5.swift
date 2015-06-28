@@ -9,6 +9,7 @@
 import Foundation
 
 func problem5() -> Int {
+    
     var divisorMax = 20
     var primes = ZSMath.generatePrimes(upToNumber: divisorMax)
     var result = 1;

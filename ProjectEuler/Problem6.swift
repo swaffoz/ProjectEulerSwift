@@ -9,11 +9,12 @@
 import Foundation
 
 func problem6() -> Int {
+    
     var sumOfSquares = 0, squareOfSums = 0
 
-    map(1...100) {x in sumOfSquares += (x*x) }
+    map(1...100) { x in sumOfSquares += (x*x) }
 
-    map(1...100) {y in squareOfSums += y }
+    map(1...100) { y in squareOfSums += y }
 
     squareOfSums *= squareOfSums
     

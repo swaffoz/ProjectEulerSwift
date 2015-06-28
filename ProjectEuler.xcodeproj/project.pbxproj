@@ -129,10 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				2F26212E1B30B25200F4B3B2 /* main.swift */,
-				2FF97BCB1B31214900B6003A /* Problem4.swift */,
-				2FF97BC81B311FDD00B6003A /* Problem3.swift */,
 				2FF97BBF1B3113FE00B6003A /* Problem1.swift */,
 				2FF97BC21B31152700B6003A /* Problem2.swift */,
+				2FF97BC81B311FDD00B6003A /* Problem3.swift */,
+				2FF97BCB1B31214900B6003A /* Problem4.swift */,
 				2FF97BDB1B326B7900B6003A /* Problem5.swift */,
 				2F2621701B37CD7400F4B3B2 /* Problem6.swift */,
 				2F2621881B3869FD00F4B3B2 /* Problem7.swift */,

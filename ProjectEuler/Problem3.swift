@@ -9,9 +9,11 @@
 import Foundation
 
 func problem3() -> Int {
-    if let result = ZSMath.primeFactors(ofNumber: 600851475143).last {
+    
+    if let result = ZSMath.primeFactors(ofNumber: 600_851_475_143).last {
         return result
     } else {
         return -1
     }
+    
 }

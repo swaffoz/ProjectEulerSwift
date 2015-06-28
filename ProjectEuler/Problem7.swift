@@ -9,9 +9,11 @@
 import Foundation
 
 func problem7() -> Int {
-    if let result = ZSMath.generateNPrimes(10001).last {
+    
+    if let result = ZSMath.generateNPrimes(10_001).last {
         return result
     } else {
         return -1
     }
+    
 }

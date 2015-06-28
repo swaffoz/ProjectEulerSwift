@@ -9,6 +9,7 @@
 import Foundation
 
 func problem9() -> Int {
+    
     let possibleValuesForA = filter(1...500) {
         (1000 * (500 - $0) % (1000 - $0)) == 0
     }
@@ -22,4 +23,5 @@ func problem9() -> Int {
     } else {
         return -1
     }
+    
 }

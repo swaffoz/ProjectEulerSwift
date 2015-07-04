@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>788AD9FD-F9B3-45BD-ABB9-400EEC9768E1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ProjectEuler</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AFC8D582DDA0C4ED48AC2FC6617D517016310659</key>
 		<string>github.com:zaneswafford/ProjectEulerSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ProjectEuler.xcodeproj</string>
+	<string>ProjectEuler.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AFC8D582DDA0C4ED48AC2FC6617D517016310659</key>

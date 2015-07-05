@@ -11,6 +11,9 @@
 		2F09B0B21B479206006CD52B /* Problem13.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FA244781B47725E00DA59B7 /* Problem13.txt */; };
 		2F09B0B31B47920C006CD52B /* Problem13.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FA244781B47725E00DA59B7 /* Problem13.txt */; };
 		2F09B0B41B479380006CD52B /* Problem13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2FA244781B47725E00DA59B7 /* Problem13.txt */; };
+		2F09B0B61B48B069006CD52B /* Problem14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B0B51B48B069006CD52B /* Problem14.swift */; };
+		2F09B0B71B48B069006CD52B /* Problem14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B0B51B48B069006CD52B /* Problem14.swift */; };
+		2F09B0BA1B48BD91006CD52B /* Problem14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09B0B81B48BD91006CD52B /* Problem14Tests.swift */; };
 		2F26212F1B30B25200F4B3B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26212E1B30B25200F4B3B2 /* main.swift */; };
 		2F26213E1B30BB5C00F4B3B2 /* Problem1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26213D1B30BB5C00F4B3B2 /* Problem1Tests.swift */; };
 		2F2621711B37CD7400F4B3B2 /* Problem6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2621701B37CD7400F4B3B2 /* Problem6.swift */; };
@@ -89,6 +92,8 @@
 
 /* Begin PBXFileReference section */
 		2F09B0AC1B479032006CD52B /* Problem13Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem13Tests.swift; sourceTree = "<group>"; };
+		2F09B0B51B48B069006CD52B /* Problem14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem14.swift; sourceTree = "<group>"; };
+		2F09B0B81B48BD91006CD52B /* Problem14Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem14Tests.swift; sourceTree = "<group>"; };
 		2F26212B1B30B25200F4B3B2 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F26212E1B30B25200F4B3B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2F2621391B30BB5C00F4B3B2 /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +190,7 @@
 				2FB4EF391B3F876300E39163 /* Problem11.swift */,
 				2FB4EF3E1B40542100E39163 /* Problem12.swift */,
 				2FB4EFAB1B42149300E39163 /* Problem13.swift */,
+				2F09B0B51B48B069006CD52B /* Problem14.swift */,
 				2FF97BC51B3116D000B6003A /* ZSMath.swift */,
 			);
 			path = ProjectEuler;
@@ -207,6 +213,7 @@
 				2FB4EF3C1B3F91E200E39163 /* Problem11Tests.swift */,
 				2FB4EFA91B42138E00E39163 /* Problem12Tests.swift */,
 				2F09B0AC1B479032006CD52B /* Problem13Tests.swift */,
+				2F09B0B81B48BD91006CD52B /* Problem14Tests.swift */,
 				2F26213B1B30BB5C00F4B3B2 /* Supporting Files */,
 			);
 			path = ProjectEulerTests;
@@ -310,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F09B0B61B48B069006CD52B /* Problem14.swift in Sources */,
 				2F2621891B3869FD00F4B3B2 /* Problem7.swift in Sources */,
 				2F2621711B37CD7400F4B3B2 /* Problem6.swift in Sources */,
 				2FB75E7D1B3BC0C1003A0136 /* Problem8.swift in Sources */,
@@ -343,6 +351,7 @@
 				2FF97BD81B32560300B6003A /* ZSMathTests.swift in Sources */,
 				2FF97BC71B3116D000B6003A /* ZSMath.swift in Sources */,
 				2F26218A1B3869FD00F4B3B2 /* Problem7.swift in Sources */,
+				2F09B0B71B48B069006CD52B /* Problem14.swift in Sources */,
 				2F26213E1B30BB5C00F4B3B2 /* Problem1Tests.swift in Sources */,
 				2F2621721B37CD7400F4B3B2 /* Problem6.swift in Sources */,
 				2F26218C1B386B3800F4B3B2 /* Problem7Tests.swift in Sources */,
@@ -353,6 +362,7 @@
 				2FF97BD41B32554000B6003A /* Problem3Tests.swift in Sources */,
 				2F09B0AD1B479032006CD52B /* Problem13Tests.swift in Sources */,
 				2FB4EF331B3C765E00E39163 /* Problem9Tests.swift in Sources */,
+				2F09B0BA1B48BD91006CD52B /* Problem14Tests.swift in Sources */,
 				2FB4EF361B3C76E300E39163 /* Problem10.swift in Sources */,
 				2FB4EFAA1B42138E00E39163 /* Problem12Tests.swift in Sources */,
 				2FB4EF3B1B3F876300E39163 /* Problem11.swift in Sources */,
@@ -449,7 +459,7 @@
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = NO;
 			};
 			name = Debug;
 		};
@@ -459,7 +469,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = NO;
 			};
 			name = Release;
 		};
@@ -479,7 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = NO;
 			};
 			name = Debug;
 		};
@@ -496,7 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				SWIFT_WHOLE_MODULE_OPTIMIZATION = NO;
 			};
 			name = Release;
 		};

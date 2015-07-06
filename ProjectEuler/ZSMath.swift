@@ -109,4 +109,16 @@ class ZSMath {
         
         return primes
     }
+    
+    class func factorial(n:Int) -> Double {
+        return factorial(Double(n))
+    }
+    
+    class func factorial(n:Double) -> Double {
+        if n <= 0 {
+            return 1
+        } else {
+            return n * factorial(n-1)
+        }
+    }
 }

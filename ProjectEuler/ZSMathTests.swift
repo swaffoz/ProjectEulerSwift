@@ -64,4 +64,15 @@ class ZSMathTests: XCTestCase {
         XCTAssert(actualPrimes == testPrimes, "Pass")
     }
     
+    func testFactorial() {
+        let actualFactorial5:Double = (5 * 4 * 3 * 2 * 1)
+        let testFactorial5:Double = ZSMath.factorial(5)
+        
+        
+        let actualFactorial10:Double = (10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)
+        let testFactorial10:Double = ZSMath.factorial(10)
+
+        XCTAssert(actualFactorial5 == testFactorial5 && actualFactorial10 == testFactorial10, "Pass")
+    }
+    
 }

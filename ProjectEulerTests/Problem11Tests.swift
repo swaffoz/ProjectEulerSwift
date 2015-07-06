@@ -12,7 +12,7 @@ import XCTest
 class Problem11Tests: XCTestCase {
 
     func testProblem11Correct() {
-        XCTAssert(problem11() == 70600674, "Problem 11 should equal 70600674")
+        XCTAssert(problem11WithBundle(NSBundle(forClass: Problem11Tests.self)) == 70600674, "Problem 11 should equal 70600674")
     }
     
     func testProblem11Performance() {

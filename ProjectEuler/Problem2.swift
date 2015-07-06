@@ -9,14 +9,6 @@
 import Foundation
 
 func problem2() -> Int {
-    /*for var i = 1; true; i++ {
-        let f = ZSMath.fibonacci(i)
-        if f > 4_000_000 {
-            return sum
-        } else if (f % 2) == 0 {
-            sum += f
-        }
-    }*/
     
     var f = ZSMath.fibbonacciSequence(UpToValue: 4_000_000)
     

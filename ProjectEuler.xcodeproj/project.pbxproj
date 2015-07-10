@@ -22,6 +22,9 @@
 		2F09B0CB1B4B10E5006CD52B /* Problem13.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F09B0C41B4B0EB5006CD52B /* Problem13.txt */; };
 		2F09B0CD1B4B1526006CD52B /* Problem11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2F09B0CC1B4B1526006CD52B /* Problem11.txt */; };
 		2F09B0CE1B4B1530006CD52B /* Problem11.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F09B0CC1B4B1526006CD52B /* Problem11.txt */; };
+		2F1B80081B50718900624F7D /* Problem17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B80071B50718900624F7D /* Problem17.swift */; };
+		2F1B800A1B50783800624F7D /* Problem17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B80091B50783800624F7D /* Problem17Tests.swift */; };
+		2F1B800B1B50786D00624F7D /* Problem17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B80071B50718900624F7D /* Problem17.swift */; };
 		2F26212F1B30B25200F4B3B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26212E1B30B25200F4B3B2 /* main.swift */; };
 		2F26213E1B30BB5C00F4B3B2 /* Problem1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26213D1B30BB5C00F4B3B2 /* Problem1Tests.swift */; };
 		2F2621711B37CD7400F4B3B2 /* Problem6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2621701B37CD7400F4B3B2 /* Problem6.swift */; };
@@ -108,6 +111,8 @@
 		2F09B0C41B4B0EB5006CD52B /* Problem13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Problem13.txt; path = "ProjectEuler/Text Files/Problem13.txt"; sourceTree = "<group>"; };
 		2F09B0C61B4B0ECA006CD52B /* ZSMathTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSMathTests.swift; sourceTree = "<group>"; };
 		2F09B0CC1B4B1526006CD52B /* Problem11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Problem11.txt; path = "ProjectEuler/Text Files/Problem11.txt"; sourceTree = "<group>"; };
+		2F1B80071B50718900624F7D /* Problem17.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem17.swift; sourceTree = "<group>"; };
+		2F1B80091B50783800624F7D /* Problem17Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem17Tests.swift; sourceTree = "<group>"; };
 		2F26212B1B30B25200F4B3B2 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F26212E1B30B25200F4B3B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2F2621391B30BB5C00F4B3B2 /* ProjectEulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +211,7 @@
 				2F09B0B51B48B069006CD52B /* Problem14.swift */,
 				2F09B0BB1B4B06CD006CD52B /* Problem15.swift */,
 				2F068A7A1B4EEB8500CA1C59 /* Problem16.swift */,
+				2F1B80071B50718900624F7D /* Problem17.swift */,
 				2FF97BC51B3116D000B6003A /* ZSMath.swift */,
 			);
 			path = ProjectEuler;
@@ -231,6 +237,7 @@
 				2F09B0B81B48BD91006CD52B /* Problem14Tests.swift */,
 				2F09B0C01B4B0C41006CD52B /* Problem15Tests.swift */,
 				2F068A7D1B4EF46000CA1C59 /* Problem16Tests.swift */,
+				2F1B80091B50783800624F7D /* Problem17Tests.swift */,
 				2F26213B1B30BB5C00F4B3B2 /* Supporting Files */,
 			);
 			path = ProjectEulerTests;
@@ -340,6 +347,7 @@
 				2F2621711B37CD7400F4B3B2 /* Problem6.swift in Sources */,
 				2FB75E7D1B3BC0C1003A0136 /* Problem8.swift in Sources */,
 				2F068A7B1B4EEB8500CA1C59 /* Problem16.swift in Sources */,
+				2F1B80081B50718900624F7D /* Problem17.swift in Sources */,
 				2FB4EF3A1B3F876300E39163 /* Problem11.swift in Sources */,
 				2FB4EF3F1B40542100E39163 /* Problem12.swift in Sources */,
 				2FB4EF301B3C736000E39163 /* Problem9.swift in Sources */,
@@ -391,8 +399,10 @@
 				2F068A7E1B4EF46000CA1C59 /* Problem16Tests.swift in Sources */,
 				2FB4EF3B1B3F876300E39163 /* Problem11.swift in Sources */,
 				2FF97BC11B3113FE00B6003A /* Problem1.swift in Sources */,
+				2F1B800B1B50786D00624F7D /* Problem17.swift in Sources */,
 				2FF97BD21B32543D00B6003A /* Problem2Tests.swift in Sources */,
 				2F2621741B37CED000F4B3B2 /* Problem6Tests.swift in Sources */,
+				2F1B800A1B50783800624F7D /* Problem17Tests.swift in Sources */,
 				2FF97BD61B32558000B6003A /* Problem4Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

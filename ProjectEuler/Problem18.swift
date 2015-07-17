@@ -33,6 +33,3 @@ func problem18WithBundle(bundle: NSBundle) -> Int {
 func problem18() -> Int {
     return problem18WithBundle(NSBundle.mainBundle())
 }
-
-
-

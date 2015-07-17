@@ -1,5 +1,5 @@
 //
-//  Prolbem18Tests.swift
+//  Problem18Tests.swift
 //  
 //
 //  Created by Zane Swafford on 7/17/15.

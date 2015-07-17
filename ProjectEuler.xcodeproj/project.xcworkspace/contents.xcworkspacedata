@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../ProjectEulerTests/Prolbem18Tests.swift">
+   </FileRef>
+   <FileRef
       location = "self:ProjectEuler.xcodeproj">
    </FileRef>
 </Workspace>
